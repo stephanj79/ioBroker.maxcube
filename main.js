@@ -679,7 +679,7 @@ function addDevice(device, deviceInfo) {
                 type: 'state',
                 native: {}
             });
-            /*objs.push({
+            objs.push({
                 _id: id + '.eco_mode',
                 common: {
                     name: deviceInfo.device_name + ' eco mode ON',
@@ -690,7 +690,7 @@ function addDevice(device, deviceInfo) {
                 },
                 type: 'state',
                 native: {}
-            });*/
+            });
             break;
     }
     if (id) {
