@@ -1,18 +1,18 @@
 {
-  "name": "iobroker.maxcube",
+  "name": "iobroker.maxcubeTest",
   "author": {
-    "name": "bluefox",
-    "email": "dogafox@gmail.com"
+    "name": "sj",
+    "email": "sj@gmail.com"
   },
-  "description": "MAX! Cube adapter",
-  "version": "1.0.1",
+  "description": "MAX! Cube adapter Test",
+  "version": "0.0.1",
   "bugs": {
-    "url": "https://github.com/ioBroker/ioBroker.maxcube/issues"
+    "url": "https://github.com/stephanj79/ioBroker.maxcube/issues"
   },
   "contributors": [
     {
-      "name": "bluefox",
-      "email": "dogafox@gmail.com"
+      "name": "sj",
+      "email": "sj@gmail.com"
     }
   ],
   "dependencies": {
@@ -25,12 +25,12 @@
     "mocha": "^4.1.0"
   },
   "directories": {},
-  "homepage": "https://github.com/ioBroker/ioBroker.maxcube",
+  "homepage": "https://github.com/stephanj79/ioBroker.maxcube/",
   "keywords": [
-    "ioBroker",
-    "Max! Cube",
-    "eQ-3",
-    "home automation"
+    "ioBroker test",
+    "Max! Cube Test",
+    "eQ-3 test",
+    "home automation test"
   ],
   "license": "MIT",
   "licenses": [
@@ -49,7 +49,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ioBroker/ioBroker.maxcube.git"
+    "url": "git+https://github.com/stephanj79/ioBroker.maxcube.git"
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha --exit"
